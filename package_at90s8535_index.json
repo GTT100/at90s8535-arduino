@@ -2,11 +2,11 @@
   "packages": [
     {
       "name": "AT90S8535",
-      "maintainer": "keisu",
-      "websiteURL": "https://github.com/keisu/at90s8535-arduino",
+      "maintainer": "GTT100",
+      "websiteURL": "https://github.com/GTT100/at90s8535-arduino",
       "email": "",
       "help": {
-        "online": "https://github.com/keisu/at90s8535-arduino"
+        "online": "https://github.com/GTT100/at90s8535-arduino"
       },
       "platforms": [
         {
@@ -14,26 +14,19 @@
           "architecture": "at90s8535",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://raw.githubusercontent.com/GTT100/at90s8535-arduino/main/at90s8535_arduino.zip",
-          "archiveFileName": "at90s8535_arduino.zip",
-          "checksum": "SHA-256:fd9d6210f5215da2114cb7e593ae687199a0cfdd90ffcb07f40da42bdd76f047",
-          "size": "6378",
+          "url": "https://github.com/GTT100/at90s8535-arduino/archive/refs/heads/main.zip",
+          "archiveFileName": "main.zip",
+          "checksum": "SHA-256:2108ae61b44a4f83206a8f07816e6fa46c9f6921678184b8cfd9791863cc801c",
+          "size": "4647",
           "boards": [
-            {"name": "AT90S8535 (8MHz External)"},
-            {"name": "AT90S8535 (4MHz Internal RC)"}
-          ],
-          "toolsDependencies": [
             {
-              "packager": "arduino",
-              "name": "avr-gcc",
-              "version": "7.3.0-atmel3.6.1-arduino7"
+              "name": "AT90S8535 (8MHz External)"
             },
             {
-              "packager": "arduino",
-              "name": "avrdude",
-              "version": "6.3.0-arduino17"
+              "name": "AT90S8535 (4MHz Internal RC)"
             }
-          ]
+          ],
+          "toolsDependencies": []
         }
       ],
       "tools": []
