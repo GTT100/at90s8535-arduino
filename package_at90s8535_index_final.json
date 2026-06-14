@@ -1,0 +1,42 @@
+{
+  "packages": [
+    {
+      "name": "AT90S8535",
+      "maintainer": "GTT100",
+      "websiteURL": "https://github.com/GTT100/at90s8535-arduino",
+      "email": "",
+      "help": {
+        "online": "https://github.com/GTT100/at90s8535-arduino"
+      },
+      "platforms": [
+        {
+          "name": "AT90S8535 (Classic AVR)",
+          "architecture": "at90s8535",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/GTT100/at90s8535-arduino/main/at90s8535_board.zip",
+          "archiveFileName": "at90s8535_board.zip",
+          "checksum": "SHA-256:e85d5de194a2e73525c908cb6cb771058a8163be666bd098ddcfbf5efda7bcde",
+          "size": "3726",
+          "boards": [
+            {"name": "AT90S8535 (8MHz External)"},
+            {"name": "AT90S8535 (4MHz Internal RC)"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino2"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino2"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
